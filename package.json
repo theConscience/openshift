@@ -1,0 +1,57 @@
+{
+  "name": "vinton-server-helloworld",
+  "version": "0.2.2-36",
+  "author": {
+    "name": "Nodejitsu Inc.",
+    "email": "support@nodejitsu.com"
+  },
+  "description": "A very basic node.js helloworld application",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodeapps/helloworld.git"
+  },
+  "keywords": [
+    "nodeapps",
+    "helloworld"
+  ],
+  "homepage": "https://github.com/theConscience/server",
+  "scripts": {
+    "start": "node ./bin/index"
+  },
+  "contributors": [
+    {
+      "name": "VK",
+      "email": "vinton@nextmail.ru"
+    }
+  ],
+  "dependencies": {
+    "formidable": ">=1.0.14",
+    "ejs": ">=1.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/nodeapps/helloworld/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nodeapps/helloworld/raw/master/LICENSE"
+    }
+  ],
+  "analyze": false,
+  "readme": "here is some readme for Ya! ",
+  "readmeFilename": "ReadMe.md",
+  "dist": {
+    "shasum": "a58e8c2bd9557519798c84484abd08ebaff045ee"
+  },
+  "subdomain": "stealth-helloworld",
+  "os": "sunos",
+  "bundledDependencies": [
+    "ejs",
+    "formidable"
+  ]
+}

@@ -1,0 +1,163 @@
+body {
+	font-family: tahoma;
+	font-size: 16px;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:visited {
+	color: #222;
+}
+article a:hover {
+	color: white;
+}
+
+article a {
+	text-decoration: none;
+	color: red;
+}
+article a:visited {
+	color: brown;
+}
+article a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+/*//////////////////////////*/
+
+.header_wraper {
+	width: 100%;
+	height: 100px;
+	background: #444;
+}
+.header {
+	width: 610px;
+	height: 100%;
+	margin: auto;
+	position: relative;
+	padding: 0;
+}
+/*//////////////////////////*/
+
+.topmenu_wraper {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 25%;
+	background-color: red;
+}
+.topmenu, .submenu {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.topmenu li {
+	padding-left: 15px;
+}
+.topmenu li.selected {
+	background-color: #444;
+	position: relative;
+	padding-left: 20px;
+}
+.topmenu li:hover, .submenu li:hover  {
+	background-color: brown;
+	cursor: pointer;
+	color: white;
+}
+.topmenu li.selected:hover {
+	padding-left: 20px;
+	background-color: #444;
+}
+
+.topmenu li.selected:before {
+	content:"";
+	width:12px;
+	height:12px;
+	border-radius: 6px;
+	background: red;
+	position: absolute;
+	left: 1px;
+	top: 4px;
+}
+
+/*//////////////////////////*/
+
+.submenu li {
+	padding-left: 24px;
+}
+
+.submenu li.selected {
+	background-color: #444;
+	position: relative;
+	padding-left: 30px;
+}
+li.selected a {
+	color: white;
+}
+.topmenu li:hover a {
+	color: white;
+}
+
+
+.submenu li.selected:hover {
+	padding-left: 30px;
+	background-color: #444;
+}
+.submenu li.selected:before {
+	content:"";
+	width:10px;
+	height:10px;
+	border-radius: 5px;
+	background: #aaa;
+	position: absolute;
+	left: 1px;
+	top: 5px;
+}
+
+
+
+
+
+/*//////////////////////////*/
+
+.article_wraper {
+	width: 100%;
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+.article {
+	width: 610px;
+	min-height: 610px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 0 0 10px;
+	display: none;
+}
+
+.article.selected {
+	display: block;
+}
+
+.article h1 {
+	margin-top: 10px;
+	margin-left: -20px;
+}
+footer {
+	width: 100%;
+	height: 50px;
+	background: #444;
+	color: white;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 0;
+}
+footer p {
+	padding: 0;
+	margin: 0;
+}
